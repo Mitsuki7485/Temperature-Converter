@@ -1,0 +1,83 @@
+/* Center the content horizontally and vertically */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #4CAF50, #2196F3); /* Linear gradient background */
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+/* Style the temperature converter container */
+#flex-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+/* Style the header text */
+p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style the input groups */
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* Style the labels */
+label {
+    font-size: 18px;
+    color: #555;
+    width: 100px; /* Adjust as needed */
+    text-align: left;
+}
+
+/* Style the input fields */
+input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+/* Style the input fields when focused */
+input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+/* Style the conversion button */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+/* Style the conversion button on hover */
+button:hover {
+    background-color: #0056b3;
+}

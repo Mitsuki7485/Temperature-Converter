@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="flex-container">
+        <p>Temperature Converter</p>
+        <div class="input-group">
+            <label for="cel">Celsius:</label>
+            <input type="text" id="cel" onchange="CtoKnF()">
+        </div>
+        <div class="input-group">
+            <label for="kel">Kelvin:</label>
+            <input type="text" id="kel" onchange="KtoCnf()">
+        </div>
+        <div class="input-group">
+            <label for="fah">Fahrenheit:</label>
+            <input type="text" id="fah" onchange="FtoCnK()">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
